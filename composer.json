@@ -1,0 +1,19 @@
+{
+    "name": "pest-alert-jwt-examples",
+    "description": "A simple PHP example for use with Pest Alerts SSO feature",
+    "authors": [
+        {
+            "name": "Matthew Gooch",
+            "email": "matthew.gooch@mitie.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "firebase/php-jwt": "^3.0"
+    },
+    "autoload": {
+
+    },
+    "minimum-stability": "dev"
+}
