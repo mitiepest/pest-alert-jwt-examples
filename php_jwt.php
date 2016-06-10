@@ -9,7 +9,7 @@ use Firebase\JWT\JWT;
  */
 
 $key  = "{your secret key}";
-$iss  = "{issuer}"
+$iss  = "{issuer}";
 
 $now  = time();
 $token = array(
@@ -19,7 +19,8 @@ $token = array(
   "username"  => "{username}",
   "firstname" => "{firstname}",
   "lastname" => "{lastname}",
-  "phonenumber" => "{phonenumber}"
+  "phonenumber" => "{phonenumber}",
+  "sitenumbers" => array('{siteNum1}',{'siteNum2'})
 );
 
 //generate the JWT
